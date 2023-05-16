@@ -5,57 +5,61 @@
     overflow: hidden;
     width: auto;
     text-align: right;
-}
-
-.box
-{
-    white-space: nowrap;
-    font-family: 'JetBrains Mono';
-    font-style: normal;
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 120px;
     font-weight: 100;
-    font-size: 20px;
-    line-height: 120%;
-    color: #FFFFFF;
 }
-
-.box div
-{
-    width: 90px;
-    display: inline-block;
+.container a{
+    padding: 35px;
 }
-
 body
 {
     background-image: url("../images/backgrounds/Group 82.png");
-    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    font-family: 'JetBrains Mono';
+    font-weight: 100;
+    font-size: 20px;
+    
 }
-
-.main-box 
+.main-line
 {
     padding: 10px;
-    display: inline-block;
+    display: flex;
     color: #FFFFFF;
     vertical-align: top;
     font-size: 3rem;
     width: 700px;
     height: 700px;
 }
+.main-box
+{
+    padding-left: 90px;
+    padding-top: 75px;
 
-.button-box
-{
-    text-align:center;
-    width: 550px;
-    height: 550px;
 }
-button
+.text-box
 {
+    padding-top: 100px;
+    padding-left: 280px;
+    text-align: right;
+    line-height: 120%;
+    font-size: 64px;
+}
+.ba
+{
+    margin-top: 60px;
+    text-align: center;
     border-radius: 60px;
-    border: 5px solid;
-    color: rgb(255, 255, 255);
+    border: 2px solid;
+    padding: 30px;
     background-color: rgba(0, 0, 0, 0);
     font-size: 3rem;
-    height:100px;
-    width: 400px;
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 100;
@@ -63,34 +67,20 @@ button
     line-height: 120%;
     color: #FFFFFF;
 }  
-
-.text-box
-{
-    text-align: right;
-    vertical-align: text-top; 
-    font-family: 'JetBrains Mono';
-    margin: 175px;
-}
-
-.head-box
-{
-    padding: 20px;
-}
 .i24
 {
     position: absolute;
     left: 31.17%;
     right: 12.84%;
     top: 9.78%;
-    bottom: -50%;
+    bottom: -40%;
     font-family: 'JetBrains Mono';
-    font-style: bold;
     font-weight: 700;
-    font-size: 934.839px;
+    font-size: 900px;
     line-height: 120%;
     display: flex;
     align-items: center;
     letter-spacing: -0.05em;
     color: #9F9F9F;
-    opacity: 0.10;
+    opacity: 0.03;
 }
