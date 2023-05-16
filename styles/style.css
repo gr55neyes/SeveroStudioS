@@ -13,8 +13,14 @@
 .container a{
     padding: 35px;
 }
+.amomovie
+{
+    color: rgba(133, 74, 182, 0);
+
+}
 body
 {
+    overflow:hidden;
     background-image: url("../images/backgrounds/Group 82.png");
     background-size: cover;
     background-repeat: no-repeat;
