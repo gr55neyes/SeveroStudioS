@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+.container
+{
+    overflow: hidden;
+    width: auto;
+    text-align: right;
+}
+
+.box
+{
+    white-space: nowrap;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #FFFFFF;
+}
+.i24
+{
+    position: absolute;
+left: 31.17%;
+right: 12.84%;
+top: 9.78%;
+bottom: -50%;
+
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 934.839px;
+line-height: 120%;
+/* identical to box height, or 1122px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.05em;
+
+color: #9F9F9F;
+
+opacity: 0.50;
+}
+.box div
+{
+    width: 90px;
+    display: inline-block;
+
+}
+
+body
+{
+    background-image: url("images/Group 82.png");
+}
+.main-box 
+{
+    padding: 10px;
+    display: inline-block;
+    color: #FFFFFF;
+    vertical-align: top;
+    font-size: 3rem;
+    width: 700px;
+    height: 700px;
+}
+.button-box
+{
+    text-align:center;
+    width: 550px;
+    height: 550px;
+}
+button
+{
+    border-radius: 60px;
+    border: 5px solid;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 3rem;
+    height:100px;
+    width: 400px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FFFFFF;
+
+}  
+
+.text-box
+{
+    text-align: right;
+    vertical-align: text-top; 
+    font-family: 'JetBrains Mono';
+    margin: 175px;
+}
+
+.head-box
+{
+    padding: 20px;
+}
