@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400;800&display=swap');
+
 .container
 {
     overflow: hidden;
@@ -9,49 +10,26 @@
 .box
 {
     white-space: nowrap;
-
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
     line-height: 120%;
-
     color: #FFFFFF;
 }
-.i24
-{
-    position: absolute;
-left: 31.17%;
-right: 12.84%;
-top: 9.78%;
-bottom: -50%;
 
-font-family: 'JetBrains Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 934.839px;
-line-height: 120%;
-/* identical to box height, or 1122px */
-
-display: flex;
-align-items: center;
-letter-spacing: -0.05em;
-
-color: #9F9F9F;
-
-opacity: 0.50;
-}
 .box div
 {
     width: 90px;
     display: inline-block;
-
 }
 
 body
 {
-    background-image: url("images/Group 82.png");
+    background-image: url("../images/backgrounds/Group 82.png");
+    margin: 0;
 }
+
 .main-box 
 {
     padding: 10px;
@@ -62,6 +40,7 @@ body
     width: 700px;
     height: 700px;
 }
+
 .button-box
 {
     text-align:center;
@@ -83,7 +62,6 @@ button
     font-size: 48px;
     line-height: 120%;
     color: #FFFFFF;
-
 }  
 
 .text-box
@@ -97,4 +75,22 @@ button
 .head-box
 {
     padding: 20px;
+}
+.i24
+{
+    position: absolute;
+    left: 31.17%;
+    right: 12.84%;
+    top: 9.78%;
+    bottom: -50%;
+    font-family: 'JetBrains Mono';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 934.839px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.05em;
+    color: #9F9F9F;
+    opacity: 0.10;
 }
